@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "8fb42eec-93e5-459b-adad-a5093ae0b728",
+		"name": "Nisway_Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get_Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2022/get_data",
+					"host": [
+						"localhost"
+					],
+					"port": "2022",
+					"path": [
+						"get_data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getData_by_salary",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2022/get_by_salary/90000",
+					"host": [
+						"localhost"
+					],
+					"port": "2022",
+					"path": [
+						"get_by_salary",
+						"90000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "sort",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2022/sort",
+					"host": [
+						"localhost"
+					],
+					"port": "2022",
+					"path": [
+						"sort"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_by_id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:2022/getsinglerecord/3",
+					"host": [
+						"localhost"
+					],
+					"port": "2022",
+					"path": [
+						"getsinglerecord",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
